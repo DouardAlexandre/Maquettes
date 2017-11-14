@@ -1,6 +1,6 @@
 body {
-     background-image:url(img/round.png);
-    background-repeat:repeat;
+   background-image:url(img/round.png);
+   background-repeat:repeat;
 }
 #mainNav{
     opacity:.8;
@@ -22,10 +22,20 @@ body {
 
 .gallery-container h1 {
     text-align: center;
-    margin-top: 70px;
+    margin-top: 110px;
     font-family: 'Droid Sans', sans-serif;
     font-weight: bold;
     color: #58595a;
+}
+.logo {
+    position:absolute;
+    width:6rem;
+    height: 6rem;
+    left:0;
+    right:18.5rem;
+    top:6rem;
+    margin-left:auto;
+    margin-right:auto;
 }
 
 .gallery-container p.page-description {
